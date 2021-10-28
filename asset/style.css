@@ -1,0 +1,117 @@
+
+@font-face {
+    font-family: 'danc-cj';
+    src: url('dancing-script-webfont.eot');
+    src: url('dancing-script-webfont.eot?#iefix') format('embedded-opentype'),
+         url('dancing-script-webfont.woff2') format('woff2'),
+         url('dancing-script-webfont.woff') format('woff'),
+         url('dancing-script-webfont.ttf') format('truetype'),
+         url('dancing-script-webfont.svg#dancing_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 30px;
+}
+
+body {
+    background: blueviolet;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 7vh;
+    text-align: center;
+    font-family: cursive;
+    color: rgb(2, 2, 51);
+    text-shadow: -4px 0 #fff, 0 4px  #fff, 4px 0 #fff, 0 -4px #fff;
+    text-decoration: underline;
+}
+
+thead{
+    background-color: red;
+    color: #000;
+}
+
+tbody:nth-child(even){
+    background: blue;
+    color: #fff;
+}
+
+table{
+    background: 5px solid black;
+    width: 90%;
+    margin: 10px 10px;
+}
+table > tbody{
+    background: 3px solid black;
+    font-family: 'danc-cj';
+    font-weight: bold;
+}
+.storage {
+    max-width: 60vh;
+    margin: 0 auto;
+    padding: 10px;
+    height:80%;
+    border: 4px solid blue;
+    background-image: linear-gradient(rgb(48, 161, 48),grey,rgb(214, 153, 40));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form input {
+    padding: 3px;
+    width: 100%;
+    font-size:20px;
+    background: #fff;   
+}
+
+.btn{
+    background: green;
+    color: #000;
+    width: 50%;
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px black;
+    padding: 8px 5px;
+    margin: 15px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-family: 'danc-cj';
+    font-weight: bolder;
+}
+
+.btn:hover{
+    background: orange;
+    margin: 25px;
+    padding: 12px 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:visited{
+    background: black;
+    color: red;
+    width: 50%;
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px black;
+    padding: 8px 5px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.cancel {
+    display: none;
+}   
+
+#button{
+    display: flex;
+}
